@@ -1,0 +1,98 @@
+
+
+        body{
+            margin: 0;
+        }
+
+        .container{
+            max-width: 1240px;
+            margin: auto;
+        }
+
+        .row{
+            display: table;
+            width: 100%;
+        }
+
+
+        /* for 全部與手機 */
+        .col__phone--100{
+            width: 100%;
+            float: left;
+        }
+        
+        .col__phone--67{
+            width: 66.67%;
+            float: left;
+        }
+
+        .col__phone--50{
+            width: 50%;
+            float: left;
+        }
+        
+        .col__phone--33{
+            width: 33.33%;
+            float: left;
+        }
+        
+        .col__phone--25{
+            width: 25%;
+            float: left;
+        }
+
+        @media (min-width: 768px){
+        /* for 平板 Tablet */
+        .col__tablet--100{
+            width: 100%;
+            float: left;
+        }
+        
+        .col__tablet--67{
+            width: 66.67%;
+            float: left;
+        }
+
+        .col__tablet--50{
+            width: 50%;
+            float: left;
+        }
+        
+        .col__tablet--33{
+            width: 33.33%;
+            float: left;
+        }
+        
+        .col__tablet--25{
+            width: 25%;
+            float: left;
+        }
+        }
+        @media (min-width: 992px){
+        /* for 筆電與桌機 Desktop */
+        
+        .col__desktop--100{
+            width: 100%;
+            float: left;
+        }
+        
+        .col__desktop--67{
+            width: 66.67%;
+            float: left;
+        }
+
+        .col__desktop--50{
+            width: 50%;
+            float: left;
+        }
+        
+        .col__desktop--33{
+            width: 33.33%;
+            float: left;
+        }
+        
+        .col__desktop--25{
+            width: 25%;
+            float: left;
+        }
+        }

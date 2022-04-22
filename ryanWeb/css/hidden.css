@@ -1,0 +1,19 @@
+@media (max-width:767px){
+    .hidden-on-phone{
+        display: none !important;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .hidden-on-tablet{
+        display: none !important;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    .hidden-on-desktop{
+        display: none !important;
+    }
+    
+}

@@ -1,0 +1,65 @@
+.nav{
+    height: 64px;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.36) ;
+    position: fixed;
+   display: table;
+    z-index: 1000;          
+}
+.nav-btn  {
+    background: none;
+    border: none;
+   height: 64px;
+   width: 64px;
+   font-size: 32px;
+   color: aliceblue;
+   float: right;
+   cursor: pointer;
+}
+.header__logo{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+   }
+.nav .nav__list{
+   list-style: none;
+   padding: 0;
+   position: absolute;
+   top:64px;
+   margin: 0;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.36);
+   display: none;
+}
+.nav .nav__list > .nav__list--item{
+   height: 64px;
+   margin: 0 8px;
+   padding: 0 8px;
+  line-height: 64px;
+}
+.nav .nav__list > .nav__list--item:hover,.nav .nav__list > .nav__list--item:active{
+background-color: rgba(167, 255, 174, 0.12)
+}
+.nav .nav__list .nav__list--item >a{
+    
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    width: 100%;
+}
+@media (min-width: 992px){
+    .nav-btn{
+    display: none;
+}
+.nav .nav__list{
+    display: block !important;
+    position: static;
+    background-color: transparent;
+    top: auto;
+    float: right;
+    width: auto;
+}
+.nav .nav__list > .nav__list--item{
+    float: left;
+}
+}

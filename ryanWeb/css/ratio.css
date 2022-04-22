@@ -1,0 +1,34 @@
+.img__link--item{
+    width: 100%;
+    cursor: pointer;
+}
+.img__ratio--32{
+    width: 100%;
+    padding-bottom: 66.67%;
+    position: relative;
+}
+.img__ratio--32 .img__ratio--item{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.yuTube__ratio--169{
+    width: 100%;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+.yuTube__ratio--169 .yuTube__ratio--item{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.yuTube__ratio--89{
+    width: 100%;
+    padding-bottom: calc(112.5% + 8px);
+    position: relative;
+}
+.yuTube__ratio--89 .yuTube__ratio--item{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}

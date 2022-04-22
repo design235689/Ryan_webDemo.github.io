@@ -1,0 +1,43 @@
+footer{
+    background-color: #242424;
+        
+    }
+
+    .footer__center{
+        text-align: center;
+    }
+
+
+    footer .footer__container{
+        margin: 56px 0;
+    }
+
+    ul.footer__links{
+     color: white;   
+    }
+
+    ul.footer__links > li{
+        padding: 8px;
+    }
+
+
+    footer .fa{
+       color: white; 
+       background-color: gray;
+       height: 48px;
+       width: 48px;
+       line-height: 48px;
+       text-align: center;
+       border-radius: 50px;
+       margin-top: 32px;
+    }
+
+    @media (max-width: 767px){
+
+        .footer__container{
+            margin: 24px 0;
+        }   
+        footer .fa{
+            margin-top: 0px;
+        }
+    }

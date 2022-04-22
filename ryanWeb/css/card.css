@@ -1,0 +1,41 @@
+.card {
+    margin: 10px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+   background-color: #fff;
+}
+
+.card  .img__link--item{
+   border-top-left-radius:12px ;
+   border-top-right-radius:12px ;
+   
+}
+
+ .card__describe{
+    line-height: 1.5em;
+    height: 6em;
+    overflow-y: hidden;
+}
+.card .card__action--content {
+    height: 100%;
+}
+.card .card__action{
+    display: table;
+    width: 100%;
+}
+.card__action--content{
+    float:right; 
+}
+
+.card .card__action > .card__action--content .btn{
+    margin: 8px;
+    padding: 8px 20px;
+    border-radius: 12px;
+    background-color: transparent;
+    border:none;
+}
+
+
+.card .card__action > .card__action--content .btn:hover{
+    background-color: rgba(0, 0, 0, 0.08);
+    
+}

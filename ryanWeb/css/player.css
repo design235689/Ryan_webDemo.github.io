@@ -1,0 +1,33 @@
+.video__list{
+    list-style: none;
+    padding: 0 ;
+    margin: 0px;
+    
+    border-radius: 8px;
+    overflow-y: scroll;
+}
+ul.video__list .video__list--item{
+  cursor: pointer;
+   padding: 16px;
+}
+.video__player{
+   margin: 8px;
+}    
+
+.video__list--container{
+   margin: 8px;
+   overflow: hidden;
+   border-radius: 8px;
+   box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+   background-color: #fff;
+}
+
+@media (max-width: 768px){
+.video__list--container .yuTube__ratio--89{
+    padding-bottom: 0;
+}
+.video__list--container .yuTube__ratio--89 > .yuTube__ratio--item{
+    position: static;
+    height: auto;
+}
+}
